@@ -24,7 +24,7 @@ class _LoadingScreen extends State<LoadingScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
+      color: Theme.of(context).colorScheme.onPrimary,
       child: Image.asset(
         "Res/logo.png",
         height: MediaQuery.of(context).size.height,
